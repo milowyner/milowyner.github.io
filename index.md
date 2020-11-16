@@ -4,6 +4,8 @@
 
 I spent three months doing an internship at Apance, where I got to build various features in SwiftUI for their creative iPad app, which is in early access.
 
+![Import/Export Photo](/images/ImportExport_Photo.jpg)
+
 ### Layer Editing
 This was the most complicated feature to implement. It took a lot of problem solving skills to visualize how a layer could be moved, rotated, and scaled on the screen while also allowing the user to move, rotate, and zoom in/out of the canvas. Especially difficult was getting the correct position when rotating, since you can rotate about any point. I had to convert different trigonometric equations to code functions so the angle and scale could offset the position of the layer on the canvas and the screen.
 
