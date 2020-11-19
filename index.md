@@ -23,3 +23,6 @@ Photo coming soon. | The last feature I worked on was a commenting interface. Th
 Screenshot | Description
 ------------ | -------------
 ![Brush Menu Photo](/images/BrushMenu_Photo.jpg) | I also worked on some smaller features like a menu of brushes with settings that can be adjusted by custom sliders; and a color picker that allows the user to drag on the screen to select a color on the canvas by sending information about it’s position to the Metal engine and storing the selected color for use when drawing.
+
+## [Will Robots Take Over the World Today?](https://apps.apple.com/us/app/will-robots-take-over-the-world-today/id1462999038)
+I built a simple weather app that also tells you if robots will take over the world today based on the conditions like rain, sun, etc. It involved requesting data from a weather API, handling possible errors, and adding smooth animations between different views. I used UIKit storyboards for this app.
