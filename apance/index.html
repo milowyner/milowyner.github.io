@@ -33,7 +33,7 @@
   </div>
 </header>
 <main>
-  <p>I spent three months doing an internship at Apance, where I got to build various features in SwiftUI for their creative iPad app, which is in early access.</p>
+  <p>I spent three months doing an internship at <a href="https://apance.com/">Apance</a>, where I got to build various features in SwiftUI for their creative iPad app, which is in early access.</p>
 <hr />
 <section class="portfolio-details">
 	<ul class="port-tabs">
@@ -45,7 +45,7 @@
 	<figure id="port_1" class="port-content">
 		<p>Layer Editing</p>
 		<img src="/images/apance-01.png" />
-		<figcaption>This was the most complicated feature to implement. It took a lot of problem solving skills to visualize how a layer could be moved, rotated, and scaled on the screen while also allowing the user to move, rotate, and zoom in/out of the canvas. Especially difficult was getting the correct position when rotating, since you can rotate about any point. I had to convert different trigonometric equations to code functions so the angle and scale could offset the position of the layer on the canvas and the screen.</figcaption>
+		<figcaption>The most complicated feature I worked on was a layer editing frame with drag handles that were used to move, resize, and rotate layers. This was built in SwiftUI and designed to talk with UIKit and Metal to update the layer contents. One challenge was figuring out how a layer and the canvas could both be transformed independently while remaining synced. My solution included converting trigonometric equations into code so the angle and scale of the canvas could offset the position of the layer.</figcaption>
 	</figure>
 	<figure id="port_2" class="port-content">
 		<p>Import / Export</p>
@@ -55,7 +55,7 @@
 	<figure id="port_3" class="port-content">
 		<p>Comments</p>
 		<img src="/images/apance-03.png" />
-		<figcaption>I worked on was a commenting interface. The user can drag to highlight an area of focus, then type to enter a comment. Other users can see this as a bubble on the canvas while comments are toggled. Getting these bubbles to remain in the correct position even as the canvas is moved around, rotated and zoomed in/out was a challenge. I solved it by using a stored location of the comment relative to the canvas, then reusing some of the code for the Layer Editing feature to convert the canvas location/scale/rotation to the correct position of the comment bubble. I also used SwiftUI’s animation functionality to make adding these comments fluid.</figcaption>
+		<figcaption>I worked on a commenting interface where the user can drag to highlight an area of focus, then type to enter a comment. Other users can see this as a bubble on the canvas while comments are toggled. Getting these bubbles to remain in the correct position even as the canvas is moved around, rotated and zoomed in/out was a challenge. I solved it by using a stored location of the comment relative to the canvas, then reusing some of the code for the Layer Editing feature to convert the canvas location/scale/rotation to the correct position of the comment bubble. I also used SwiftUI’s animation functionality to make adding these comments fluid.</figcaption>
 	</figure>
 	<figure id="port_4" class="port-content">
 		<p>Brush Menu / Color Picker</p>
